@@ -2,7 +2,8 @@ library(shiny)
 library(readxl)
 
 # 1. UI Section (Paste content from your old ui.R here)
-ui <- fluidPage(navbarPage("Simple Linear Regression",
+ui <- fluidPage(title = "Simple Linear Regression", 
+                navbarPage("Simple Linear Regression",
                            tabPanel("Data",
                                     # Sidebar with a slider input for number of bins
                                     sidebarLayout(
